@@ -1,0 +1,16 @@
+[{
+			"Surname": "Zeleny",
+			"Course": "Computer Science",
+			"Age": 19
+		},
+		{
+			"Surname": "Velykyi",
+			"Course": "Art",
+			"Age": 22
+		},
+		{
+			"Surname": "Shyrokyi",
+			"Course": "History of Literature",
+			"Age": 32
+		}
+	]
