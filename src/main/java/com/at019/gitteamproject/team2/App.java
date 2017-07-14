@@ -8,6 +8,7 @@ import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import org.json.JSONArray;
@@ -33,6 +34,13 @@ public class App
 				typeFactory.constructCollectionType(
 						ArrayList.class, Student.class));
 
+		for (Student s : students)
+			s.printAllInfo();
+		
+		System.out.println("------------------------------");
+		
+		Collections.sort(students);
+		
 		for (Student s : students)
 			s.printAllInfo();
     }
