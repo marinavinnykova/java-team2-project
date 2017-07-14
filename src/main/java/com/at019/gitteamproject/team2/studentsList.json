@@ -1,33 +1,32 @@
-[{
-		"Surname": "Zeleny",
-		"Course": "Computer Science",
-		"Age": 19
-	},
+[
+{
+			"Surname": "Zeleny",
+			"Course": "Computer Science",
+			"Age": 19
+		},
+		{
+			"Surname": "Velykyi",
+			"Course": "Art",
+			"Age": 22
+		},
 	{
-		"Surname": "Velykyi",
-		"Course": "Art",
-		"Age": 22
-	},
+			"Surname": "Aaron",
+			"Course": "Art",
+			"Age": 22
+		},
+{
+			"Surname": "Aaron",
+			"Course": "Biology",
+			"Age": 22
+		},
 	{
-		"Surname": "Shyrokyi",
-		"Course": "History of Literature",
-		"Age": 33
-	},
-	{
-		"Surname": "Shyrokyi",
-		"Course": "History of Literature",
-		"Age": 32
-	},
-	{
-		"Surname": "Baba",
-		"Course": "French Literature",
-		"Age": 32
-	},
-	{
-		"Surname": "Dido",
-		"Course": "Law",
-		"Age": 23
-	}
-
-
-]
+			"Surname": "Aaron",
+			"Course": "Art",
+			"Age": 20
+		},
+		{
+			"Surname": "Shyrokyi",
+			"Course": "History of Literature",
+			"Age": 32
+		}
+	]
