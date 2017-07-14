@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Student {
+public class Student implements Comparable<Student> {
 	
 	String surname;
 	String course;
@@ -47,6 +47,19 @@ public class Student {
 	{
 		System.out.println(getSurname() +" "+ getCourse() +" "+ getAge());
 	}
+
+	public int compareTo(Student student) {
+		int result = surname.compareTo(student.surname);
+		if (result == 0)
+		{
+			result = course.compareTo(student.course);
+			if (result == 0)
+			{
+				result = age - student.age;
+			}
+		}
+		return result;
 	}
+}
 
 

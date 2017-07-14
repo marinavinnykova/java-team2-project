@@ -1,4 +1,5 @@
-[{
+[
+{
 			"Surname": "Zeleny",
 			"Course": "Computer Science",
 			"Age": 19
@@ -7,6 +8,21 @@
 			"Surname": "Velykyi",
 			"Course": "Art",
 			"Age": 22
+		},
+	{
+			"Surname": "Aaron",
+			"Course": "Art",
+			"Age": 22
+		},
+{
+			"Surname": "Aaron",
+			"Course": "Biology",
+			"Age": 22
+		},
+	{
+			"Surname": "Aaron",
+			"Course": "Art",
+			"Age": 20
 		},
 		{
 			"Surname": "Shyrokyi",
